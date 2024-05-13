@@ -6,6 +6,9 @@
     "lint": "turbo lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
+  "engines": {
+    "node": ">=16"
+  },
   "devDependencies": {
     "eslint": "^8.57.0",
     "@repo/eslint-config": "workspace:*",
